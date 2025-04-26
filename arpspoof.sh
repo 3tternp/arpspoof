@@ -29,7 +29,7 @@ echo -e "\033[1;34m
 \033[0m"
 
 # Check and install missing tools
-REQUIRED_TOOLS=("arpspoof" "driftnet" "dsniff​")
+REQUIRED_TOOLS=("arpspoof" "driftnet")
 
 install_tool() {
     TOOL_NAME="$1"
@@ -39,6 +39,7 @@ install_tool() {
         echo "[*] $TOOL_NAME not found. Attempting to install..."
         if command -v apt &>/dev/null; then
             sudo apt update && sudo apt install -y "$TOOL_NAME"
+            sudo apt install dsniff ​-y
         elif command -v pacman &>/dev/null; then
             sudo pacman -Sy --noconfirm "$TOOL_NAME"
         elif command -v yum &>/dev/null; then
