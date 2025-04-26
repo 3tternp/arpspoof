@@ -29,7 +29,7 @@ echo -e "\033[1;34m
 \033[0m"
 
 # Check and install missing tools
-REQUIRED_TOOLS=("arpspoof" "driftnet")
+REQUIRED_TOOLS=("arpspoof" "driftnet" "dsniff​")
 
 install_tool() {
     TOOL_NAME="$1"
