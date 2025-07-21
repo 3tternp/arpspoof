@@ -19,19 +19,19 @@ v2.0.0 – 2025-07-21
 
 2. Modular function design for easier customization and maintenance
 
-Logging support for:
+    Logging support for:
 
-ARP spoofing logs (2 directions)
+    ARP spoofing logs (2 directions)
 
-Driftnet output
+    Driftnet output
 
-SSLStrip credentials
+    SSLStrip credentials
 
-xterm integration to run SSLStrip in a separate terminal
+    xterm integration to run SSLStrip in a separate terminal
 
-Root privilege check before script execution
+    Root privilege check before script execution
 
-iptables HTTP redirection rule for SSLStrip
+    iptables HTTP redirection rule for SSLStrip
 
 Auto-installation of required tools (arpspoof, driftnet, sslstrip, xterm) via available package manager
 
