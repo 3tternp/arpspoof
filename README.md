@@ -11,11 +11,11 @@ v2.0.0 – 2025-07-21
 
 1. Interactive menu-based interface for choosing attack modes
 
-ARP Spoofing + Driftnet
+    ARP Spoofing + Driftnet
 
-ARP Spoofing + SSLStrip
+    ARP Spoofing + SSLStrip
 
-Full Attack (ARP + Driftnet + SSLStrip)
+    Full Attack (ARP + Driftnet + SSLStrip)
 
 2. Modular function design for easier customization and maintenance
 
