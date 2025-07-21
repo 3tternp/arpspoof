@@ -86,9 +86,10 @@ pause_screen() {
 check_root
 echo -e "\033[1;34m
 -------------------------------------------------------
-|              ONII-CHAN ATTACK TOOLKIT              |
-|    MITM - ARP Spoofing - Driftnet - SSLStrip       |
+|              ONII-CHAN ATTACK TOOLKIT               |
+|    MITM - ARP Spoofing - Driftnet - SSLStrip        |
 | @uth0r Astra.X      Thanks to B!n@ry N!5h@n         |
+|                  Version 2.0                        |
 -------------------------------------------------------
 \033[0m"
 
